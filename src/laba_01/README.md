@@ -7,10 +7,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python)
 ![OOP](https://img.shields.io/badge/OOP-implemented-success?style=for-the-badge)
-![Validation](https://img.shields.io/badge/Validation-separate_module-orange?style=for-the-badge)
-![Status](https://img.shields.io/badge/State_logic-done-purple?style=for-the-badge)
 
-</div>
 
 ---
 
