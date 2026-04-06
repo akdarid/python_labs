@@ -185,6 +185,30 @@
 
 **Сценарий 3: Свойства (геттеры/сеттеры)**
 
+• Чтение всех свойств
+
+• Изменение имени владельца
+
+• Попытка изменения баланса (ошибка)
+
+*Демонстрируется, как работать со свойствами класса - читать и изменять данные через специальные методы.*
+
+**Сценарий 4: Банковские операции**
+
+
+<img width="610" height="46" alt="image" src="https://github.com/user-attachments/assets/339f2d73-88ba-4ec0-bc2a-67dbcc27b007" />
+
+<img width="610" height="165" alt="image" src="https://github.com/user-attachments/assets/71a85b9d-0142-41d6-b331-350892b5beb6" />
+
+
+
+
+<img width="397" height="361" alt="image" src="https://github.com/user-attachments/assets/ede001e4-928a-461b-b193-12f3e0d05e32" />
+
+
+
+
+
 
 
 
