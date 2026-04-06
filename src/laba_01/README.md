@@ -166,8 +166,25 @@
 
 <img width="830" height="78" alt="image" src="https://github.com/user-attachments/assets/e7bce55a-3307-4a33-9d12-459d6592472b" />
 
-
 • Создание счета с начальным балансом 1000 валютой рубли и именем акканта и номером соответсвенно 
+
+Показывает, что каждый счет получает свой номер (ACC1000, ACC1001...), а значения по умолчанию применяются корректно.
+
+
+**Сценарий 2: Валидация (обработка ошибок)**
+
+<img width="775" height="303" alt="image" src="https://github.com/user-attachments/assets/ca4c47e2-5a5e-4739-ab12-22a6e23181a8" />
+
+<img width="337" height="144" alt="image" src="https://github.com/user-attachments/assets/382020bb-fefe-4eac-bdea-d4f7efa9158f" />
+
+• Отрицательный баланс
+
+• Некорректные имена (пустые)
+
+
+
+**Сценарий 3: Свойства (геттеры/сеттеры)**
+
 
 
 
