@@ -205,7 +205,38 @@
 
 <img width="610" height="165" alt="image" src="https://github.com/user-attachments/assets/71a85b9d-0142-41d6-b331-350892b5beb6" />
 
+• Внесение средств
 
+
+<img width="610" height="228" alt="image" src="https://github.com/user-attachments/assets/c3dc3992-8b0c-41a8-bd39-9b5257b72a24" />
+
+<img width="600" height="55" alt="image" src="https://github.com/user-attachments/assets/33b69e5d-8d2a-4345-8b65-cae10ade28f5" />
+
+• Снятие средств
+
+*Показать, что все операции проверяются на корректность, и при ошибках счет остается в целостном состоянии.*
+
+
+**Сценарий 5: Магические методы**
+
+<img width="600" height="187" alt="image" src="https://github.com/user-attachments/assets/4a8f215b-eed4-46f6-822d-9f0171a8e42f" />
+
+__str__ (пользовательский вывод):
+• Создается счет
+• Выводится результат print(account1) 
+• На экране появляется красивая табличка с информацией о счете
+• Это метод, который вызывается, когда объект нужно показать пользователю
+
+
+<img width="1322" height="556" alt="image" src="https://github.com/user-attachments/assets/f2a6db21-5a5c-48fe-ae98-955919475e0d" />
+
+__repr__ (отладочный вывод): 
+• Выводится результат repr(account1)
+
+<img width="1034" height="637" alt="image" src="https://github.com/user-attachments/assets/8ea5e087-77c1-494a-9621-d646a16ef80e" />
+
+__eq__ (сравнение счетов):
+•Сравниваем два счета с одинаковыми параметрами, но разными номерами.
 
 
 
