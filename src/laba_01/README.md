@@ -191,7 +191,12 @@
 
 • Попытка изменения баланса (ошибка)
 
+<img width="397" height="361" alt="image" src="https://github.com/user-attachments/assets/ede001e4-928a-461b-b193-12f3e0d05e32" />
+
 *Демонстрируется, как работать со свойствами класса - читать и изменять данные через специальные методы.*
+
+
+
 
 **Сценарий 4: Банковские операции**
 
@@ -203,7 +208,7 @@
 
 
 
-<img width="397" height="361" alt="image" src="https://github.com/user-attachments/assets/ede001e4-928a-461b-b193-12f3e0d05e32" />
+
 
 
 
