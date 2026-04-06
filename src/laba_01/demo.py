@@ -50,7 +50,7 @@ def main() -> None:
 
     print("\n12. Пример некорректного создания объекта:")
     try:
-        bad_account = BankAccount("", "ACC999", -100.0, "RUB")
+        bad_account = BankAccount("", "ACC999", -100, "RUB")
         print(bad_account)
     except (TypeError, ValueError) as error:
         print("Ошибка:", error)
