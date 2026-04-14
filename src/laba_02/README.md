@@ -75,6 +75,3 @@
 
 ---
 
-## Запуск
-```bash
-python demo.py
