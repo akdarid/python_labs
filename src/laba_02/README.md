@@ -54,8 +54,7 @@
 Пользователь хочет отсортировать счета по сумме денег.
 
 
-![img.png](../../images/img.png)
-
+![img.png](../../images/scn2.png)
 
 Действия:
 - вызывается метод `sort_by_balance()`
@@ -67,8 +66,7 @@
 Пользователь ищет конкретный счёт по его номеру.
 
 
-![img.png](../../images/img.png)
-
+![img.png](../../images/scn3.png)
 
 Действия:
 - вызывается `find_by_account_number()`
