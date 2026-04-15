@@ -1,12 +1,8 @@
-# 💳 Лабораторная работа №1 — Класс и инкапсуляция  
+# Лабораторная работа №1 — Класс и инкапсуляция  
 ## Вариант 4. Банковская система
 
 
 
-### `BankAccount` • `Python 3.x` • `ООП` • `Инкапсуляция`
-
-![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python)
-![OOP](https://img.shields.io/badge/OOP-implemented-success?style=for-the-badge)
 
 
 ---
