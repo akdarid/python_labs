@@ -2,6 +2,7 @@ from model import BankAccount
 
 
 class BankAccountCollection:
+
     def __init__(self) -> None:
         self._items: list[BankAccount] = []
 
@@ -58,6 +59,15 @@ class BankAccountCollection:
     def __getitem__(self, index: int) -> BankAccount:
         return self._items[index]
 
+    def __str__(self) -> str:
+        if not self._items:
+            return "Коллекция счетов пуста"
+
+        return "\n".join(str(item) for item in self._items)
+
+    def __repr__(self) -> str:
+        return f"BankAccountCollection(items={self._items})"
+
     def sort(self, key=None, reverse: bool = False) -> None:
         self._items.sort(key=key, reverse=reverse)
 
@@ -97,11 +107,3 @@ class BankAccountCollection:
 
         return new_collection
 
-    def __str__(self) -> str:
-        if not self._items:
-            return "Коллекция счетов пуста"
-
-        return "\n".join(str(item) for item in self._items)
-
-    def __repr__(self) -> str:
-        return f"BankAccountCollection(items={self._items})"
