@@ -6,4 +6,6 @@
 
 - Лабораторная работа 3: [кликабельно](https://github.com/akdarid/python_labs/blob/main/src/laba_03/README.md)
 
+- Лабораторная работа 4: [кликабельно](https://github.com/akdarid/python_labs/blob/main/src/laba_04/README.md)
 
+- Лабораторная работа 5: [кликабельно](https://github.com/akdarid/python_labs/blob/main/src/laba_05/README.md)
