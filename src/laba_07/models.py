@@ -1,4 +1,4 @@
-from base import BankAccount
+from src.laba_07.base import BankAccount
 from validate import validate_amount
 
 

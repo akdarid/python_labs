@@ -4,7 +4,7 @@ import sys
 LABA_03_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "laba_03"))
 sys.path.insert(0, LABA_03_PATH)
 
-from src.laba_03.models import SavingsAccount, CreditAccount
+from src.laba_07.models import SavingsAccount, CreditAccount
 
 from collections import FunctionalBankAccountCollection
 from strategies import (

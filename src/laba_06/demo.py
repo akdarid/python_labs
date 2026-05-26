@@ -4,7 +4,7 @@ from src.laba_06.container import (
     S,
 )
 
-from src.laba_03.models import (
+from src.laba_07.models import (
     SavingsAccount,
     CreditAccount,
 )

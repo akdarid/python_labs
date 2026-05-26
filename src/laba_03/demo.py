@@ -1,5 +1,5 @@
-from collection import BankAccountCollection
-from models import SavingsAccount, CreditAccount
+from src.laba_07.collection import BankAccountCollection
+from src.laba_07.models import SavingsAccount, CreditAccount
 
 
 def print_title(title: str) -> None:

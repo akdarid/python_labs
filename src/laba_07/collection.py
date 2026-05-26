@@ -5,9 +5,22 @@ class BankAccountCollection:
     def __init__(self) -> None:
         self._items: list[BankAccount] = []
 
+    def _is_bank_account_like(self, item: object) -> bool:
+        """Проверить, что объект похож на банковский счёт."""
+        required_attributes = (
+            "owner_name",
+            "account_number",
+            "balance",
+            "currency",
+            "is_active",
+            "calculate",
+        )
+
+        return all(hasattr(item, attr) for attr in required_attributes)
+
     def add(self, item: BankAccount) -> None:
-        if not isinstance(item, BankAccount):
-            raise TypeError("Можно добавлять только объекты BankAccount")
+        if not self._is_bank_account_like(item):
+            raise TypeError("Можно добавлять только объекты банковских счетов")
 
         if self.find_by_account_number(item.account_number) is not None:
             raise ValueError(
@@ -17,8 +30,8 @@ class BankAccountCollection:
         self._items.append(item)
 
     def remove(self, item: BankAccount) -> None:
-        if not isinstance(item, BankAccount):
-            raise TypeError("Удалять можно только объект BankAccount")
+        if item not in self._items:
+            raise ValueError("Такого объекта нет в коллекции")
 
         self._items.remove(item)
 
@@ -29,16 +42,8 @@ class BankAccountCollection:
         for item in self._items:
             if item.account_number == account_number:
                 return item
+
         return None
-
-    def __len__(self) -> int:
-        return len(self._items)
-
-    def __iter__(self):
-        return iter(self._items)
-
-    def __getitem__(self, index: int) -> BankAccount:
-        return self._items[index]
 
     def get_active(self) -> "BankAccountCollection":
         new_collection = BankAccountCollection()
@@ -50,26 +55,31 @@ class BankAccountCollection:
         return new_collection
 
     def get_savings_accounts(self) -> "BankAccountCollection":
-        from models import SavingsAccount
-
         new_collection = BankAccountCollection()
 
         for item in self._items:
-            if isinstance(item, SavingsAccount):
+            if item.__class__.__name__ == "SavingsAccount":
                 new_collection.add(item)
 
         return new_collection
 
     def get_credit_accounts(self) -> "BankAccountCollection":
-        from models import CreditAccount
-
         new_collection = BankAccountCollection()
 
         for item in self._items:
-            if isinstance(item, CreditAccount):
+            if item.__class__.__name__ == "CreditAccount":
                 new_collection.add(item)
 
         return new_collection
+
+    def __len__(self) -> int:
+        return len(self._items)
+
+    def __iter__(self):
+        return iter(self._items)
+
+    def __getitem__(self, index: int) -> BankAccount:
+        return self._items[index]
 
     def __str__(self) -> str:
         if not self._items:
