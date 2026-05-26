@@ -62,7 +62,7 @@ class BankCLI:
 
     def _print_menu(self) -> None:
         print("\n" + "=" * 50)
-        print("МЕНЮ")
+        print("МЕНdw")
         print("=" * 50)
         print("1. Добавить накопительный счёт")
         print("2. Добавить кредитный счёт")
