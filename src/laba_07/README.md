@@ -283,11 +283,9 @@ accounts.json
 ```
 
 Скриншот:
+![img_1.png](img/img_1.png)
 
-```markdown
-![Запуск и автозагрузка](../../images/lab07/start_load.png)
-```
-
+![img_2.png](img/img_2.png)
 ---
 
 ### Сценарий 2: добавление счёта, выход и повторный запуск
@@ -321,9 +319,7 @@ accounts.json
 
 Скриншот:
 
-```markdown
-![Добавление и сохранение](../../images/lab07/add_save_restart.png)
-```
+![img_1.png](img/img_1.png)
 
 ---
 
@@ -357,9 +353,7 @@ accounts.json
 
 Скриншот:
 
-```markdown
-![Сортировка](../../images/lab07/sort.png)
-```
+![img_3.png](img/img_3.png)
 
 ---
 
@@ -409,20 +403,13 @@ accounts.json
 ```
 
 Скриншот:
+![img_4.png](img/img_4.png)
+![img_5.png](img/img_5.png)
 
-```markdown
-![Фильтрация и ошибки](../../images/lab07/filter_error.png)
-```
 
 ---
 
-## 9. Asciinema
 
-Если выполнено дополнительное задание со звёздочкой, ссылка на запись добавляется сюда:
-
-```markdown
-[![asciinema](https://asciinema.org/a/xxxxxxx.svg)](https://asciinema.org/a/xxxxxxx)
-```
 
 ---
 
