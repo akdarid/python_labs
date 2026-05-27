@@ -1,0 +1,12 @@
+[
+    {
+        "owner_name": "Иван Иванов",
+        "account_number": "sa1001",
+        "balance": 1500.0,
+        "currency": "RUB",
+        "is_active": true,
+        "type": "savings",
+        "interest_rate": 0.1,
+        "bonus": 1.0
+    }
+]
